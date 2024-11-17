@@ -1,0 +1,372 @@
+/*Generales*/
+body {
+    margin: 0;
+    font-family: 'SUSE', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Header*/
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px 0;
+}
+.logo {
+    max-height: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end; 
+    flex-grow: 1;
+    gap: 30px;
+    margin-right: 40px;
+    border-radius: 5px;
+    align-items: center;
+}
+.navbar a {
+    font-weight: bold;
+}
+.btn {
+    color: #fff;
+    background-color: #0e56d5 ;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.btn_front {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Sección de bienvenida */
+.welcome-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.welcome-text {
+    width: 50%;
+    text-align: center;
+}
+
+.welcome-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0e56d5;
+}
+
+.welcome-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.welcome-btn {
+    display: inline-block;
+    background-color: #0e56d5;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.welcome-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* Sección ofrecemos */
+.offer-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.offer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.offer-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.offer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-description {
+    width: 50%;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.offer-description p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.offer-btn {
+    display: inline-block;
+    background-color: #0e56d5;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.offer-features {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-weight: bold;
+}
+
+/* Sección nosotros */
+.about-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    width: 50%;
+    padding-right: 30px;
+}
+
+.about-title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-subtitle {
+    font-size: 1.2em;
+    text-align: center;
+    color: #555;
+}
+
+.about-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Misión y Visión */
+.mission-vision-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 50px auto 0;
+    padding: 20px;
+}
+
+.mission-block, .vision-block {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.mission-block h3, .vision-block h3 {
+    font-size: 1.8em;
+    color: #0e56d5;
+    margin-bottom: 15px;
+}
+
+.mission-block p, .vision-block p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+.contact-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    background-color: #fff;
+    padding: 50px 0;       
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.contact-content {
+    width: 60%;
+}
+
+.contact-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0e56d5;
+}
+
+.contact-content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.contact-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-content ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.contact-image {
+    width: 35%;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos del footer */
+.site-footer {
+    background-color: #f2f2f2; 
+    color: #333;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc; 
+}
+
+.footer-logo img {
+    max-height: 50px;
+    width: auto;
+}
+
+.footer-social a {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.footer-social a:hover img {
+    transform: scale(1.1); 
+}
+
+.footer-links a {
+    margin-left: 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #0e56d5; 
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e0e0e0; 
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+}
