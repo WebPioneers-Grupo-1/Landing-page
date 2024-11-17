@@ -1,3 +1,3 @@
 # LandingPage
 
-[Landing Page de TakeMyCar](https://takemycar.netlify.app/)
+[Landing Page de TakeMyCar](https://takemycarlandingpage.netlify.app/)
